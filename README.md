@@ -1,5 +1,3 @@
-# Awesome Cloud Native [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
-
 > A curated list of open-source cloud native tools, software, and tutorials.
 >
 
@@ -70,6 +68,7 @@ Cloud Native is a behavior and design philosophy. At its essence, any behavior o
 - [haproxy-ingress](https://github.com/jcmoraisjr/haproxy-ingress) - HaProxy Ingress.
 - [higress](https://github.com/alibaba/higress) - Next-generation Cloud Native Gateway.
 - [kong](https://github.com/Kong/kong) - The Microservice API Gateway.
+- [litellm](https://github.com/BerriAI/litellm) - Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq].
 - [lura](https://github.com/luraproject/lura) - Ultra performant API Gateway with middlewares. A project hosted at The Linux Foundation.
 - [nginx-gateway-fabric](https://github.com/nginxinc/nginx-gateway-fabric) - NGINX Gateway Fabric provides an implementation for the Gateway API using NGINX as the data plane.
 - [orange](https://github.com/orlabs/orange) - OpenResty/Nginx Gateway for API Monitoring and Management.
@@ -118,6 +117,7 @@ Cloud Native is a behavior and design philosophy. At its essence, any behavior o
 - [helm](https://github.com/helm/helm) - The Kubernetes Package Manager.
 - [helm-dashboard](https://github.com/komodorio/helm-dashboard) - The missing UI for Helm - visualize your releases.
 - [helmfile](https://github.com/roboll/helmfile) - Deploy Kubernetes Helm Charts.
+- [helm-kanvas-snapshot](https://github.com/meshery/helm-kanvas-snapshot) - A Plugin that generates a visual snapshot of Helm charts.
 - [helmsman](https://github.com/Praqma/helmsman) - Helm Charts as Code.
 - [hiboot](https://github.com/hidevopsio/hiboot) - Hiboot is a high performance web and cli application framework with dependency injection support.
 - [hub](https://github.com/artifacthub/hub) - Find, install and publish Cloud Native packages
@@ -147,6 +147,7 @@ Cloud Native is a behavior and design philosophy. At its essence, any behavior o
 - [kusion](https://github.com/KusionStack/kusion) - A compile-to-cloud technology stack with tool chains and engine.
 - [kustomize](https://github.com/kubernetes-sigs/kustomize) - Customization of kubernetes YAML configurations.
 - [lastbackend](https://github.com/lastbackend/lastbackend) - Container orchestration with CI&CD, cli and amazing UI.
+- [meshery](https://github.com/meshery/meshery) - A open source cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications (multi-cloud).
 - [mkit](https://github.com/darkbitio/mkit) - MKIT is a Managed Kubernetes Inspection Tool that validates several common security-related configuration settings of managed Kubernetes cluster objects and the workloads/resources running inside the cluster.
 - [move2kube](https://github.com/konveyor/move2kube) - A tool to help users migrate their apps from legacy platforms like Cloud Foundry to Kubernetes and Openshift. Analyses the application source code and generates Kubernetes YAMLs, Helm Charts, Tekton Pipelines, etc. The analysis and generation can be heavily customized to produce the exact output that you want.
 - [opencompose](https://github.com/redhat-developer/opencompose) - A higher level abstraction for Kubernetes Resource.
@@ -164,6 +165,7 @@ Cloud Native is a behavior and design philosophy. At its essence, any behavior o
 - [source-to-image](https://github.com/openshift/source-to-image) - A tool for building/building artifacts from source and injecting into docker images.
 - [spec](https://github.com/oam-dev/spec) - The Open Application Model specification.
 - [spec](https://github.com/score-spec/spec) - The score specification file.
+- [spegel](https://github.com/spegel-org/spegel) - Stateless cluster local OCI registry mirror.
 - [spinnaker](https://github.com/spinnaker/spinnaker) - Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
 - [tenv](https://github.com/tofuutils/tenv) - OpenTofu / Terraform / Terragrunt and Atmos version manager.
 - [terraform](https://github.com/hashicorp/terraform) - Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.
@@ -668,6 +670,7 @@ Cloud Native is a behavior and design philosophy. At its essence, any behavior o
 - [compass](https://github.com/winfordlin/Compass) - A Debugging Tool for your Kubernetes Deployments.
 - [container-structure-test](https://github.com/GoogleContainerTools/container-structure-test) - Validate the structure of your container images.
 - [container-transform](https://github.com/micahhausler/container-transform) - Transforms docker-compose, ECS, and Marathon configurations.
+- [conveyor](https://github.com/open-ug/conveyor) - Conveyor CI is an extensible Software Framework/Engine for building CI/CD Platforms.
 - [cost-model](https://github.com/kubecost/cost-model) - Cross-cloud cost allocation models for workloads running on Kubernetes.
 - [crashcart](https://github.com/oracle/crashcart) - CrashCart: sideload binaries into a running container.
 - [cri-tools](https://github.com/kubernetes-sigs/cri-tools) - CLI and validation tools for Kubelet Container Runtime Interface (CRI).
@@ -738,6 +741,7 @@ Cloud Native is a behavior and design philosophy. At its essence, any behavior o
 - [kubectl-trace](https://github.com/iovisor/kubectl-trace) - Schedule bpftrace programs on your kubernetes cluster using the kubectl.
 - [kubectl-tree](https://github.com/ahmetb/kubectl-tree) - kubectl plugin to browse Kubernetes object hierarchies as a tree 🎄 (using? star the repo!)
 - [kubedb](https://github.com/k8sdb/cli) - KubeDB CLI to manage kubernetes ready production-grade Databases.
+- [kubediagrams](https://github.com/philippemerle/KubeDiagrams) - A CLI tool to generate Kubernetes architecture diagrams automatically from Kubernetes manifest files, kustomization files, Helm charts, helmfile descriptors, and actual cluster state.
 - [kubedirector](https://github.com/bluek8s/kubedirector) - Kubernetes Director (aka KubeDirector) for deploying and managing stateful applications on Kubernetes.
 - [kubefirst](https://github.com/kubefirst/kubefirst) - The Kubefirst Open Source Platform.
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development.
@@ -768,6 +772,7 @@ Cloud Native is a behavior and design philosophy. At its essence, any behavior o
 - [mindaro](https://github.com/microsoft/mindaro) - Bridge to Kubernetes - for Visual Studio and Visual Studio Code
 - [minikube](https://github.com/kubernetes/minikube) - Run Kubernetes locally.
 - [monday](https://github.com/eko/monday) - A dev tool for microservice developers that run local applications and/or forward some others from Kubernetes or over SSH.
+- [netshoot](https://github.com/nicolaka/netshoot) - A Docker + Kubernetes network trouble-shooting swiss-army container.
 - [nocalhost](https://github.com/nocalhost/nocalhost) - Nocalhost is Cloud Native Dev Environment.
 - [okteto](https://github.com/okteto/okteto) - Local development experience for Kubernetes apps.
 - [packer](https://github.com/hashicorp/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
@@ -862,4 +867,3 @@ Cloud Native is a behavior and design philosophy. At its essence, any behavior o
 - [rainbond](https://github.com/goodrain/rainbond) - Serverless PaaS , A new generation of easy-to-use cloud management platforms based on kubernetes.
 - [rancher](https://github.com/rancher/rancher) - Complete container management platform.
 - [wayne](https://github.com/Qihoo360/wayne) - Web UI for Kubernetes multi-clusters.
-
